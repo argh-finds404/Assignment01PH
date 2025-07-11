@@ -51,6 +51,11 @@ nav{
     width: 120px;
     height: 48px;
     font-size:17px;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+background-color: #333;
 }
 
 .btn-secondary{
@@ -62,6 +67,11 @@ nav{
     height: 48px;
     font-size: 16px;
     margin-top: none;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+    background-color: #333;
 }
 
 
@@ -116,6 +126,11 @@ nav{
   font-optical-sizing: auto;
   font-weight: 500;
     margin-top: none;
+    cursor: pointer;
+}
+
+.btn-third:hover{
+    background-color: #333;
 }
 
 .img-action{
@@ -216,17 +231,11 @@ nav{
     border-radius:50%;
 }
 
-/* .user-card-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-} */
 
-.user-card-container {
+.user-card-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* background-color: #f9f6f6;  */
     padding: 40px;
     border-radius: 20px;
 }
@@ -258,21 +267,84 @@ nav{
 .user-review{
 padding: 120px;
 }
-/* .card-user{
-    background-color: #F2EDED;
-    border: 1px solid rgba(0, 0, 0, 0.141);
-    border-radius: 10px;
-    padding: 20px;
-    max-height: 700px;
-    max-width: 450px;
-} */
 
 .card-user {
     background-color: #F2EDED;
     border: 1px solid rgba(0, 0, 0, 0.141);
     border-radius: 10px;
-    padding: 25px 18px;       /* reduced padding */
-    max-width: 380px;         /* smaller width */
-    min-height: 300px;        /* slightly smaller height */
+    padding: 25px 18px;      
+    max-width: 380px;         
+    min-height: 300px;        
 }
 
+/* Get Info Section */
+
+.container-last {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+  gap: 40px;
+}
+
+
+.touch-font {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 97px;
+  color: #000000;
+  max-width: 528px;
+}
+
+
+.touch-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+  display: block;
+  margin-bottom: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+form input,
+form textarea {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  width: 100%;
+}
+
+form textarea {
+  min-height: 120px;
+}
+
+.bttn {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px;
+  background-color: #4E47FF;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+    width: 530px;
+}
+
+.bttn:hover {
+  background-color: #333;
+}
