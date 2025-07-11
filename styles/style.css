@@ -3,7 +3,7 @@ body{
     background-color: #f0dcff57;
 }
 .hero-container{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url(Assets/Hero-bg.png);
     background-size: cover;
     background-position: center;
     height: 62vh; 
